@@ -24,7 +24,7 @@ public class Contains_duplicate{
         HashSet<Integer> H1 = new HashSet<>();
 
         for(int i = 0; i<arr.length;i++){
-            H1.add(arr_duplicated[i]);
+            H1.add(arr[i]);
         }
         if(H1.size() == arr.length){
             System.out.println("False");
